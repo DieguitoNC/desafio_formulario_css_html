@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #EFEFEF;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 436px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #535971;
+}
+
+.page {
+  width: 758px;
+  margin: auto;
+}
+
+header {
+  width: 417px;
+  margin-top: 140px;
+  margin-bottom: 58px;
+  color: white;
+}
+
+
+header h1 {
+  font-family: "Staatliches", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+header p {
+
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+form {
+  background-color: white;
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  padding: 0px 64px;
+  color: #4E4958;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.fieldset-wrapper legend {
+  color: #535971;
+  font-family: "Staatliches", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.fieldset-wrapper .main-information {
+  padding-bottom: 16px;
+  padding-top: 64px;
+  border-bottom: 1px solid #E6E6F0;
+}
+
+.first-second-name {
+  display: flex;
+  gap: 22px;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+
+
+.first-second-name input {
+  width: 300px;
+  height: 56px;
+
+
+  border-radius: 8px;
+  border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+  background: var(--Shapes-02, #FAFAFC);
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-wrapper input{
+  height: 56px;
+
+  border-radius: 8px;
+  border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+  background: var(--Shapes-02, #FAFAFC);
+}
+
+
+.input-wrapper span {
+  color: #C1BCCC;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+
+.fieldset-wrapper .mentor-msg {
+  padding-bottom: 8px;
+  padding-top: 30px;
+  border-bottom: 1px solid #E6E6F0;
+  margin-bottom: 32px;
+}
+
+.hours-available {
+  margin-top: 32px;
+}
+
+.text-first-second-mentor {
+  font-size: 20px;
+  color: #535971;
+  font-family: "Staatliches", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+
+
+  border-top: 1px solid #E6E6F0;
+  margin-top: 8px;
+  padding-top: 32px;
+}
+
+
+.first-mentor {
+  display: flex;
+  gap: 32px;
+}
+
+.block-hours {
+  display: flex;
+  gap: 10px;
+}
+
+.first-mentor input {
+  width: 300px;
+}
+
+.first-mentor .block-hours input {
+  width: 140px;
+}
+
+.text-second-mentor {
+  font-size: 20px;
+  color: #535971;
+  font-family: "Staatliches", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+
+  margin-top: 16px;
+}
+
+form > fieldset:nth-child(4) {
+  padding-bottom: 64px;
+}
+
+footer {
+  width: 758px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  border-radius: 0px 0px 20px 20px;
+  background: #535971;
+}
+
+footer button {
+  display: flex;
+  width: 608px;
+  height: 55.652px;
+
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 20px;
+  background: #FF5374;
+  border: none;
+
+
+  color: #FFF;
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+
+  cursor: pointer;
+
+}
+
+footer button:hover {
+  background: #bd3e57;
+
+}
+
+input:invalid {
+  border: 1px solid #FF1010;
+  
+}
